@@ -1,0 +1,1867 @@
+.admin-signup-page {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  background: #fff;
+  font-family: "Satoshi", Arial, sans-serif;
+}
+
+.admin-signup-left {
+  width: 50%;
+  min-height: 100vh;
+  background: #000;
+  color: #fff;
+  padding: 50px 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.admin-signup-logo {
+  font-size: 27px;
+  font-weight: 900;
+}
+
+.admin-signup-logo span {
+  color: #ff3333;
+}
+
+.admin-signup-left-content {
+  max-width: 500px;
+}
+
+.admin-signup-small,
+.admin-signup-form-small {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 20px;
+}
+
+.admin-signup-left h1 {
+  font-size: clamp(38px, 5vw, 65px);
+  font-weight: 900;
+  line-height: 1.15;
+  margin-bottom: 25px;
+}
+
+.admin-signup-left-text {
+  color: #aaa;
+  font-size: 16px;
+  line-height: 1.8;
+  max-width: 420px;
+}
+
+.admin-signup-left-bottom {
+  color: #888;
+  font-size: 11px;
+  letter-spacing: 3px;
+}
+
+.admin-signup-right {
+  width: 50%;
+  min-height: 100vh;
+  padding: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.admin-signup-form-container {
+  width: 100%;
+  max-width: 450px;
+}
+
+.admin-signup-form-small {
+  color: #999;
+}
+
+.admin-signup-form-container h2 {
+  font-size: 35px;
+  font-weight: 900;
+  margin-bottom: 12px;
+}
+
+.admin-signup-form-description {
+  color: #888;
+  font-size: 15px;
+  margin-bottom: 35px;
+}
+
+.admin-signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.admin-signup-field {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.admin-signup-field label {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.admin-signup-field input {
+  width: 100%;
+  height: 58px;
+  padding: 0 20px;
+  border: none;
+  outline: none;
+  background: #f0f0f0;
+  border-radius: 10px;
+  font-size: 14px;
+}
+
+.admin-signup-field input:focus {
+  outline: 1px solid #000;
+}
+
+.admin-signup-button {
+  width: 100%;
+  height: 58px;
+  background: #000;
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  transition: 0.2s;
+}
+
+.admin-signup-button:hover {
+  background: #333;
+}
+
+.admin-signup-button span {
+  font-size: 22px;
+}
+
+.admin-signup-bottom-text {
+  margin-top: 50px;
+  text-align: center;
+  color: #aaa;
+  font-size: 11px;
+  letter-spacing: 3px;
+}
+
+/* Планшет */
+@media (max-width: 900px) {
+  .admin-signup-left {
+    padding: 35px;
+  }
+
+  .admin-signup-right {
+    padding: 30px;
+  }
+
+  .admin-signup-left h1 {
+    font-size: 40px;
+  }
+}
+
+/* Телефон */
+@media (max-width: 650px) {
+  .admin-signup-page {
+    flex-direction: column;
+  }
+
+  .admin-signup-left {
+    width: 100%;
+    min-height: 330px;
+    padding: 25px;
+  }
+
+  .admin-signup-left h1 {
+    font-size: 35px;
+  }
+
+  .admin-signup-left-text {
+    font-size: 14px;
+  }
+
+  .admin-signup-right {
+    width: 100%;
+    min-height: auto;
+    padding: 45px 22px;
+  }
+
+  .admin-signup-form-container h2 {
+    font-size: 28px;
+  }
+
+  .admin-signup-bottom-text {
+    margin-top: 35px;
+  }
+}
+
+/* Большой экран */
+@media (min-width: 1200px) {
+  .admin-signup-container {
+    max-width: 500px;
+  }
+
+  .admin-signup-title {
+    font-size: 44px;
+  }
+}
+.g-first {
+  color: #4285f4;
+}
+.o-first {
+  color: #ea4335;
+}
+.o-second {
+  color: #fbbc05;
+}
+.g-second {
+  color: #4285f4;
+}
+.l-letter {
+  color: #34a853;
+}
+.e-letter {
+  color: #ea4335;
+}
+.checkout-field select {
+  width: 100%;
+  padding: 14px;
+  color: #222 !important;
+  background: #fff !important;
+  border: 1px solid #ddd;
+  appearance: auto;
+}
+
+.checkout-field select option {
+  color: #222 !important;
+  background: #fff !important;
+}
+
+.delivery-check-page {
+  min-height: 100vh;
+  background: #fff;
+  color: #111;
+  display: flex;
+  justify-content: center;
+  padding: 35px 6%;
+}
+
+.delivery-check-container {
+  width: 100%;
+  max-width: 1250px;
+  display: flex;
+  flex-direction: column;
+}
+
+.delivery-check-logo {
+  color: #111;
+  font-size: 27px;
+  font-weight: 900;
+  text-decoration: none;
+}
+
+.delivery-check-logo span {
+  color: #999;
+}
+
+.delivery-check-content {
+  width: 100%;
+  max-width: 620px;
+  margin: auto;
+  padding: 80px 0;
+}
+
+.delivery-check-icon {
+  width: 75px;
+  height: 75px;
+  background: #111;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin-bottom: 35px;
+}
+
+.delivery-check-label {
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  color: #888;
+}
+
+.delivery-check-content h1 {
+  font-size: clamp(35px, 6vw, 65px);
+  line-height: 1.05;
+  font-weight: 900;
+  margin: 20px 0;
+}
+
+.delivery-check-description {
+  color: #666;
+  font-size: 16px;
+  line-height: 1.8;
+  max-width: 500px;
+}
+
+.delivery-check-status {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  border: 1px solid #ddd;
+  padding: 17px;
+  margin-top: 35px;
+  font-size: 12px;
+  font-weight: 800;
+  letter-spacing: 1px;
+}
+
+.delivery-check-status-dot {
+  width: 9px;
+  height: 9px;
+  background: #111;
+}
+
+.delivery-check-info {
+  display: flex;
+  align-items: flex-start;
+  gap: 13px;
+  margin-top: 25px;
+  padding: 20px;
+  background: #f5f5f5;
+}
+
+.delivery-check-info i {
+  font-size: 19px;
+  margin-top: 3px;
+}
+
+.delivery-check-info p {
+  margin: 0;
+  color: #555;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.delivery-check-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #111;
+  color: #fff;
+  text-decoration: none;
+  padding: 19px 22px;
+  margin-top: 30px;
+  font-size: 13px;
+  font-weight: 800;
+  transition: 0.2s;
+}
+
+.delivery-check-button:hover {
+  background: #333;
+  color: #fff;
+}
+
+.delivery-check-button span {
+  font-size: 22px;
+}
+
+.delivery-check-footer {
+  border-top: 1px solid #eee;
+  padding-top: 22px;
+  color: #888;
+  font-size: 11px;
+  letter-spacing: 2px;
+}
+
+@media (max-width: 600px) {
+  .delivery-check-page {
+    padding: 25px 22px;
+  }
+
+  .delivery-check-content {
+    padding: 65px 0;
+  }
+
+  .delivery-check-content h1 {
+    font-size: 38px;
+  }
+
+  .delivery-check-description {
+    font-size: 14px;
+  }
+}
+/* Основная страница */
+
+.checkout-page {
+  width: 100%;
+  min-height: 100vh;
+  background: #ffffff;
+  font-family: "Satoshi", Arial, sans-serif;
+}
+
+.checkout-container {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+}
+
+/* Левая часть */
+
+.checkout-left {
+  width: 50%;
+  min-height: 100vh;
+  background: #000000;
+  color: #ffffff;
+  padding: 50px 55px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.checkout-small-title {
+  color: #aaaaaa;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+.checkout-left h1 {
+  font-family: "Integral CF", "Arial Black", sans-serif;
+  font-size: clamp(38px, 4.5vw, 65px);
+  line-height: 1.2;
+  margin-bottom: 25px;
+}
+
+.checkout-description {
+  max-width: 400px;
+  color: #aaaaaa;
+  font-size: 17px;
+  line-height: 1.8;
+}
+
+.checkout-decoration {
+  color: #777777;
+  font-size: 12px;
+  letter-spacing: 3px;
+}
+
+/* Правая часть */
+
+.checkout-right {
+  width: 50%;
+  min-height: 100vh;
+  padding: 60px 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.checkout-form {
+  width: 100%;
+  max-width: 480px;
+}
+
+.checkout-form-label {
+  color: #999999;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-bottom: 18px;
+}
+
+.checkout-form h2 {
+  font-family: "Integral CF", "Arial Black", sans-serif;
+  font-size: clamp(25px, 3vw, 36px);
+  margin-bottom: 12px;
+  color: #000000;
+}
+
+.checkout-form-description {
+  color: #777777;
+  font-size: 15px;
+  margin-bottom: 35px;
+}
+
+/* Поля */
+
+.checkout-name-row {
+  display: flex;
+  gap: 15px;
+}
+
+.checkout-field {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 22px;
+}
+
+.checkout-field label {
+  font-size: 14px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.checkout-field input {
+  width: 100%;
+  height: 58px;
+  padding: 0 20px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background: #f0f0f0;
+  font-family: "Satoshi", Arial, sans-serif;
+  font-size: 14px;
+  color: #000000;
+}
+
+.checkout-field input::placeholder {
+  color: #999999;
+}
+
+.checkout-field input:focus {
+  outline: 1px solid #000000;
+}
+
+.checkout-field select {
+  width: 100%;
+  height: 58px;
+  padding: 0 20px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background: #f0f0f0;
+  font-family: "Satoshi", Arial, sans-serif;
+  font-size: 14px;
+  color: #000000;
+}
+
+.checkout-field input::placeholder {
+  color: #999999;
+}
+
+.checkout-field select:focus {
+  outline: 1px solid #000000;
+}
+
+.checkout-field select {
+  width: 100%;
+  height: 58px;
+  padding: 0 20px;
+  border: none;
+  outline: none;
+  border-radius: 50px;
+  background: #f0f0f0;
+  font-family: "Satoshi", Arial, sans-serif;
+  font-size: 14px;
+  color: #000000;
+}
+
+.checkout-field input::placeholder {
+  color: #999999;
+}
+
+.checkout-field select:focus {
+  outline: 1px solid #000000;
+}
+
+/* Кнопка */
+
+.checkout-button {
+  width: 100%;
+  height: 60px;
+  background: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 50px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  transition: 0.2s;
+}
+
+.checkout-button:hover {
+  background: #333333;
+}
+
+.checkout-button span {
+  font-size: 21px;
+}
+
+/* Подвал */
+
+.checkout-footer {
+  color: #aaaaaa;
+  font-size: 11px;
+  letter-spacing: 2px;
+  margin-top: 50px;
+}
+
+/* Планшет */
+
+@media (max-width: 900px) {
+  .checkout-left {
+    padding: 35px;
+  }
+
+  .checkout-right {
+    padding: 35px;
+  }
+
+  .checkout-left h1 {
+    font-size: 38px;
+  }
+}
+
+/* Телефон */
+
+@media (max-width: 650px) {
+  .checkout-container {
+    flex-direction: column;
+  }
+
+  .checkout-left {
+    width: 100%;
+    min-height: 280px;
+    padding: 30px 25px;
+  }
+
+  .checkout-left h1 {
+    font-size: 34px;
+  }
+
+  .checkout-description {
+    font-size: 14px;
+  }
+
+  .checkout-right {
+    width: 100%;
+    min-height: 600px;
+    padding: 45px 22px;
+  }
+
+  .checkout-form h2 {
+    font-size: 28px;
+  }
+
+  .checkout-name-row {
+    gap: 10px;
+  }
+
+  .checkout-name-row input {
+    padding: 0 13px;
+    font-size: 13px;
+  }
+}
+
+.seller-profile-page {
+  min-height: 100vh;
+  background: #f4f4f4;
+  padding-bottom: 90px;
+  color: #171717;
+}
+
+.seller-profile-container {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 25px;
+}
+
+.seller-profile-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.seller-profile-header span {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1.5px;
+  color: #888;
+}
+
+.seller-profile-header h1 {
+  font-size: 30px;
+  font-weight: 800;
+  margin: 10px 0;
+}
+
+.seller-profile-header p {
+  color: #888;
+  font-size: 14px;
+  margin: 0;
+}
+
+.seller-profile-avatar {
+  width: 65px;
+  height: 65px;
+  background: #171717;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+
+.seller-profile-card {
+  background: white;
+  border: 1px solid #dedede;
+}
+
+.seller-profile-card-title {
+  padding: 23px;
+  border-bottom: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.seller-profile-card-title h2 {
+  font-size: 19px;
+  font-weight: 800;
+  margin: 0 0 7px;
+}
+
+.seller-profile-card-title p {
+  color: #888;
+  font-size: 13px;
+  margin: 0;
+}
+
+.seller-profile-card-title > i {
+  font-size: 20px;
+  color: #888;
+}
+
+.seller-profile-info {
+  padding: 25px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 25px;
+}
+
+.seller-profile-info-item {
+  padding-bottom: 16px;
+  border-bottom: 1px solid #eee;
+}
+
+.seller-profile-info-item span {
+  font-size: 12px;
+  color: #888;
+}
+
+.seller-profile-info-item h3 {
+  font-size: 15px;
+  font-weight: 700;
+  margin: 8px 0 0;
+}
+
+.seller-profile-full {
+  grid-column: 1 / -1;
+}
+
+.seller-profile-actions {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.seller-profile-action {
+  background: white;
+  border: 1px solid #dedede;
+  padding: 19px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  text-decoration: none;
+  color: #171717;
+  transition: 0.2s;
+}
+
+.seller-profile-action:hover {
+  border-color: #171717;
+}
+
+.seller-profile-action-icon {
+  width: 45px;
+  height: 45px;
+  background: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 18px;
+}
+
+.seller-profile-action > div:nth-child(2) {
+  flex: 1;
+}
+
+.seller-profile-action h3 {
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0 0 6px;
+}
+
+.seller-profile-action p {
+  font-size: 12px;
+  color: #888;
+  margin: 0;
+}
+
+.seller-profile-action > i {
+  color: #888;
+  font-size: 13px;
+}
+
+.seller-profile-logout {
+  width: 100%;
+  height: 52px;
+  background: white;
+  border: 1px solid #dedede;
+  color: #b42318;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.seller-profile-logout:hover {
+  border-color: #b42318;
+  background: #fffafa;
+}
+
+@media (max-width: 600px) {
+  .seller-profile-container {
+    padding: 25px 14px;
+  }
+
+  .seller-profile-header h1 {
+    font-size: 25px;
+  }
+
+  .seller-profile-avatar {
+    width: 50px;
+    height: 50px;
+    font-size: 20px;
+  }
+
+  .seller-profile-info {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    gap: 18px;
+  }
+
+  .seller-profile-full {
+    grid-column: auto;
+  }
+
+  .seller-profile-card-title {
+    padding: 18px;
+  }
+
+  .seller-profile-action {
+    padding: 15px;
+  }
+}
+
+.seller-business-modal-overlay {
+  position: fixed;
+  inset: 0;
+  z-index: 9999;
+  background: rgba(0, 0, 0, 0.55);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.seller-business-modal {
+  position: relative;
+  width: 100%;
+  max-width: 480px;
+  max-height: 90vh;
+  overflow-y: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 12px;
+}
+
+.seller-business-modal-close {
+  position: absolute;
+  top: 18px;
+  right: 18px;
+  width: 35px;
+  height: 35px;
+  border: none;
+  background: #f2f2f2;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.seller-business-modal-title {
+  margin-bottom: 22px;
+}
+
+.seller-business-modal-title h2 {
+  margin: 12px 0 5px;
+  font-size: 23px;
+}
+
+.seller-business-modal-title p {
+  margin: 0;
+  color: #777;
+  font-size: 14px;
+}
+
+.seller-business-modal-icon {
+  width: 45px;
+  height: 45px;
+  background: #f1f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 8px;
+  font-size: 20px;
+}
+
+.seller-business-modal-image {
+  width: 100%;
+  height: 150px;
+  background: #f5f5f5;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  color: #999;
+  font-size: 40px;
+}
+
+.seller-business-modal-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.seller-business-modal label {
+  display: block;
+  margin: 15px 0 7px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.seller-business-modal input {
+  width: 100%;
+  height: 45px;
+  padding: 0 12px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  outline: none;
+  font-size: 14px;
+}
+
+.seller-business-modal input:focus {
+  border-color: #999;
+}
+
+.seller-business-modal-save {
+  width: 100%;
+  height: 48px;
+  margin-top: 24px;
+  border: none;
+  border-radius: 6px;
+  background: #222;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.seller-business-modal-save:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+@media (max-width: 500px) {
+  .seller-business-modal {
+    padding: 22px;
+  }
+}
+
+/* Верхняя навигация пункта передачи */
+.seller-bottom-nav {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
+  min-height: 70px;
+  background: #ffffff;
+  border-bottom: 1px solid #eeeeee;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+
+  padding: 10px 20px;
+}
+
+/* Кнопки навигации */
+.seller-bottom-nav-item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 9px;
+
+  color: #777777;
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 500;
+
+  padding: 12px 18px;
+  transition: 0.2s;
+}
+
+/* Иконки */
+.seller-bottom-nav-item i {
+  font-size: 18px;
+}
+
+/* Активная кнопка */
+.seller-bottom-nav-item.active {
+  color: #111111;
+  font-weight: 700;
+}
+
+/* Наведение */
+.seller-bottom-nav-item:hover {
+  color: #111111;
+}
+
+/* Телефон */
+@media (max-width: 600px) {
+  .seller-bottom-nav {
+    min-height: 60px;
+    gap: 5px;
+    justify-content: space-around;
+    padding: 8px 5px;
+  }
+
+  .seller-bottom-nav-item {
+    flex-direction: column;
+    gap: 4px;
+    padding: 7px 12px;
+    font-size: 11px;
+  }
+
+  .seller-bottom-nav-item i {
+    font-size: 18px;
+  }
+}
+
+/* Страница заказов пункта передачи */
+.pickup-orders-page {
+  min-height: 100vh;
+  background: #f7f7f7;
+}
+
+/* Контейнер */
+.pickup-orders-container {
+  max-width: 1250px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 35px 25px;
+}
+
+/* Заголовок */
+.pickup-orders-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
+  margin-bottom: 30px;
+}
+
+.pickup-orders-header span {
+  color: #888;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.pickup-orders-header h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #111;
+  margin: 8px 0;
+}
+
+.pickup-orders-header p {
+  color: #777;
+  font-size: 14px;
+  margin: 0;
+}
+
+/* Счётчик */
+.pickup-orders-count {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  background: white;
+  border: 1px solid #eee;
+  padding: 16px 22px;
+}
+
+.pickup-orders-count > i {
+  font-size: 25px;
+  color: #111;
+}
+
+.pickup-orders-count div {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+}
+
+.pickup-orders-count strong {
+  font-size: 23px;
+  color: #111;
+}
+
+.pickup-orders-count span {
+  font-size: 12px;
+  letter-spacing: 0;
+  font-weight: 400;
+}
+
+/* Список заказов */
+.pickup-orders-list {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 20px;
+}
+
+/* Карточка */
+.pickup-order-card {
+  background: white;
+  border: 1px solid #eaeaea;
+  padding: 22px;
+}
+
+/* Магазин */
+.pickup-order-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 22px;
+}
+
+.pickup-order-store {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+}
+
+.pickup-order-store img {
+  width: 65px;
+  height: 65px;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.pickup-order-store span {
+  font-size: 10px;
+  color: #999;
+  font-weight: 700;
+}
+
+.pickup-order-store h3 {
+  font-size: 17px;
+  font-weight: 700;
+  color: #111;
+  margin: 5px 0 0;
+}
+
+.pickup-order-status {
+  background: #fff5df;
+  color: #a36a00;
+  padding: 8px 10px;
+  font-size: 11px;
+  font-weight: 600;
+  white-space: nowrap;
+}
+
+/* Количество товаров и вес */
+.pickup-order-products {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+}
+
+.pickup-order-products > div {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+  background: #f8f8f8;
+  padding: 15px;
+}
+
+.pickup-order-products i {
+  font-size: 18px;
+  color: #555;
+}
+
+.pickup-order-products span {
+  color: #888;
+  font-size: 12px;
+}
+
+.pickup-order-products strong {
+  color: #111;
+  font-size: 15px;
+}
+
+/* Разделитель */
+.pickup-order-divider {
+  height: 1px;
+  background: #eee;
+  margin: 22px 0;
+}
+
+/* Информация покупателя */
+.pickup-order-info-title {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  font-size: 15px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 17px;
+}
+
+.pickup-order-info-title i {
+  font-size: 16px;
+}
+
+.pickup-order-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+}
+
+.pickup-order-info > div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.pickup-order-info span {
+  font-size: 12px;
+  color: #999;
+}
+
+.pickup-order-info strong {
+  font-size: 14px;
+  color: #222;
+  font-weight: 600;
+}
+
+.pickup-order-full {
+  grid-column: 1 / -1;
+}
+
+/* Кнопка получить */
+.pickup-order-button {
+  width: 100%;
+  height: 48px;
+  margin-top: 23px;
+  border: none;
+  background: #111;
+  color: white;
+  font-size: 14px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.pickup-order-button:hover {
+  background: #333;
+}
+
+/* Планшет */
+@media (max-width: 900px) {
+  .pickup-orders-list {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Телефон */
+@media (max-width: 600px) {
+  .pickup-orders-container {
+    padding: 22px 14px;
+  }
+
+  .pickup-orders-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .pickup-orders-header h1 {
+    font-size: 26px;
+  }
+
+  .pickup-orders-count {
+    width: 100%;
+  }
+
+  .pickup-order-card {
+    padding: 16px;
+  }
+
+  .pickup-order-top {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .pickup-order-store img {
+    width: 55px;
+    height: 55px;
+  }
+
+  .pickup-order-products {
+    gap: 8px;
+  }
+
+  .pickup-order-products > div {
+    padding: 11px;
+  }
+
+  .pickup-order-info {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .pickup-order-full {
+    grid-column: auto;
+  }
+}
+
+/* Главная пункта передачи */
+.pickup-home-page {
+  min-height: 100vh;
+  background: #f7f7f7;
+}
+
+.pickup-home-container {
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 35px 25px;
+}
+
+/* Заголовок */
+.pickup-home-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 28px;
+}
+
+.pickup-home-header > div:first-child > span {
+  color: #888;
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 1px;
+}
+
+.pickup-home-header h1 {
+  color: #111;
+  font-size: 32px;
+  font-weight: 700;
+  margin: 8px 0;
+}
+
+.pickup-home-header p {
+  color: #888;
+  font-size: 14px;
+  margin: 0;
+}
+
+.pickup-home-header-icon {
+  width: 60px;
+  height: 60px;
+  background: #111;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 25px;
+}
+
+/* Статистика */
+.pickup-home-stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 18px;
+  margin-bottom: 35px;
+}
+
+.pickup-home-stat-card {
+  background: white;
+  border: 1px solid #eee;
+  padding: 22px;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.pickup-home-stat-icon {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 19px;
+}
+
+.pickup-home-stat-icon.orange {
+  background: #fff3df;
+  color: #d58a16;
+}
+
+.pickup-home-stat-icon.green {
+  background: #e8f7ed;
+  color: #29964c;
+}
+
+.pickup-home-stat-icon.black {
+  background: #eeeeee;
+  color: #111;
+}
+
+.pickup-home-stat-card span {
+  color: #888;
+  font-size: 12px;
+}
+
+.pickup-home-stat-card h2 {
+  color: #111;
+  font-size: 25px;
+  font-weight: 700;
+  margin: 5px 0 0;
+}
+
+/* Раздел заказов */
+.pickup-home-orders-section {
+  background: white;
+  border: 1px solid #eee;
+  padding: 25px;
+}
+
+.pickup-home-orders-heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 22px;
+}
+
+.pickup-home-orders-heading h2 {
+  color: #111;
+  font-size: 21px;
+  font-weight: 700;
+  margin: 0 0 6px;
+}
+
+.pickup-home-orders-heading p {
+  color: #888;
+  font-size: 13px;
+  margin: 0;
+}
+
+.pickup-home-total {
+  color: #555;
+  font-size: 13px;
+  background: #f3f3f3;
+  padding: 9px 13px;
+}
+
+/* Поиск */
+.pickup-home-search {
+  height: 48px;
+  border: 1px solid #e5e5e5;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 0 15px;
+  margin-bottom: 18px;
+}
+
+.pickup-home-search i {
+  color: #888;
+  font-size: 16px;
+}
+
+.pickup-home-search input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  color: #111;
+  font-size: 14px;
+  background: transparent;
+}
+
+/* Фильтры */
+.pickup-home-filters {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 25px;
+}
+
+.pickup-home-filters button {
+  border: 1px solid #e5e5e5;
+  background: white;
+  color: #666;
+  padding: 12px 17px;
+  font-size: 13px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.pickup-home-filters button.active {
+  background: #111;
+  border-color: #111;
+  color: white;
+}
+
+.pickup-home-filters button:hover {
+  border-color: #111;
+}
+
+/* Список */
+.pickup-home-orders-list {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* Карточка заказа */
+.pickup-home-order-card {
+  border: 1px solid #eaeaea;
+  padding: 22px;
+  background: white;
+}
+
+.pickup-home-order-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.pickup-home-order-number span {
+  color: #999;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.pickup-home-order-number h3 {
+  color: #111;
+  font-size: 18px;
+  margin: 5px 0 0;
+  font-weight: 700;
+}
+
+.pickup-home-order-status {
+  padding: 8px 12px;
+  font-size: 11px;
+  font-weight: 600;
+}
+
+.pickup-home-order-status.waiting {
+  background: #fff3df;
+  color: #bd7810;
+}
+
+.pickup-home-order-status.completed {
+  background: #e8f7ed;
+  color: #29964c;
+}
+
+/* Магазин */
+.pickup-home-store {
+  display: flex;
+  align-items: center;
+  gap: 13px;
+  padding-bottom: 20px;
+  border-bottom: 1px solid #eee;
+}
+
+.pickup-home-store img {
+  width: 58px;
+  height: 58px;
+  object-fit: cover;
+}
+
+.pickup-home-store span {
+  color: #999;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.pickup-home-store h3 {
+  color: #111;
+  font-size: 16px;
+  margin: 5px 0 0;
+}
+
+/* Информация о заказе */
+.pickup-home-order-details {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 15px;
+  padding: 20px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.pickup-home-order-details > div {
+  display: flex;
+  flex-direction: column;
+  gap: 7px;
+}
+
+.pickup-home-order-details i {
+  color: #555;
+  font-size: 16px;
+}
+
+.pickup-home-order-details span {
+  color: #999;
+  font-size: 12px;
+}
+
+.pickup-home-order-details strong {
+  color: #111;
+  font-size: 14px;
+}
+
+/* Покупатель */
+.pickup-home-customer {
+  padding-top: 20px;
+}
+
+.pickup-home-customer h4 {
+  display: flex;
+  align-items: center;
+  gap: 9px;
+  color: #111;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 0 0 17px;
+}
+
+.pickup-home-customer-info {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 16px;
+}
+
+.pickup-home-customer-info > div {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.pickup-home-customer-info span {
+  color: #999;
+  font-size: 12px;
+}
+
+.pickup-home-customer-info strong {
+  color: #222;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.pickup-home-customer-address {
+  grid-column: 1 / -1;
+}
+
+/* Кнопки */
+.pickup-home-order-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 22px;
+}
+
+.pickup-home-details-button,
+.pickup-home-courier-button {
+  min-height: 46px;
+  padding: 0 18px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  text-decoration: none;
+  transition: 0.2s;
+}
+
+.pickup-home-details-button {
+  flex: 1;
+  border: 1px solid #ddd;
+  background: white;
+  color: #111;
+}
+
+.pickup-home-details-button:hover {
+  background: #f5f5f5;
+}
+
+.pickup-home-courier-button {
+  flex: 1;
+  border: 1px solid #111;
+  background: #111;
+  color: white;
+}
+
+.pickup-home-courier-button:hover {
+  background: #333;
+}
+
+/* Пустой список */
+.pickup-home-empty {
+  text-align: center;
+  padding: 55px 15px;
+  color: #888;
+}
+
+.pickup-home-empty i {
+  font-size: 35px;
+  margin-bottom: 15px;
+}
+
+.pickup-home-empty h3 {
+  color: #222;
+  font-size: 18px;
+}
+
+.pickup-home-empty p {
+  font-size: 13px;
+}
+
+/* Планшет */
+@media (max-width: 850px) {
+  .pickup-home-stats {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .pickup-home-stat-card:last-child {
+    grid-column: 1 / -1;
+  }
+}
+
+/* Телефон */
+@media (max-width: 600px) {
+  .pickup-home-container {
+    padding: 22px 13px;
+  }
+
+  .pickup-home-header h1 {
+    font-size: 26px;
+  }
+
+  .pickup-home-header-icon {
+    width: 48px;
+    height: 48px;
+    font-size: 20px;
+  }
+
+  .pickup-home-stats {
+    grid-template-columns: 1fr;
+    gap: 10px;
+  }
+
+  .pickup-home-stat-card:last-child {
+    grid-column: auto;
+  }
+
+  .pickup-home-stat-card {
+    padding: 15px;
+  }
+
+  .pickup-home-orders-section {
+    padding: 15px;
+  }
+
+  .pickup-home-orders-heading h2 {
+    font-size: 18px;
+  }
+
+  .pickup-home-filters {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .pickup-home-filters button {
+    justify-content: center;
+  }
+
+  .pickup-home-order-card {
+    padding: 15px;
+  }
+
+  .pickup-home-order-details {
+    grid-template-columns: 1fr 1fr;
+    gap: 18px;
+  }
+
+  .pickup-home-customer-info {
+    grid-template-columns: 1fr;
+  }
+
+  .pickup-home-customer-address {
+    grid-column: auto;
+  }
+
+  .pickup-home-order-actions {
+    flex-direction: column;
+  }
+
+  .pickup-home-details-button,
+  .pickup-home-courier-button {
+    width: 100%;
+    min-height: 46px;
+  }
+}
